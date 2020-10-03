@@ -31,6 +31,11 @@ pub fn run() {
         println!("Number: {}", x);
     }
 
+    // Loop through vector values with indexes
+    for (i, x) in numbers.iter().enumerate() {
+        println!("Number: {}:{}", i, x);
+    }
+
     // Loop & mutate values
     for x in numbers.iter_mut() {
         *x = *x*2;
