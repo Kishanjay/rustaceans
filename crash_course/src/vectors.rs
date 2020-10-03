@@ -41,5 +41,11 @@ pub fn run() {
         *x = *x*2;
     }
 
+    // Concat vectors
+    let mut a: Vec<i32> = vec![1,2,3];
+    let mut b: Vec<i32> = vec![4,5,6];
+    a.append(&mut b);
+    println!("{:?}", a);
+
     println!("Numbers Vec: {:?}", numbers);
 }
