@@ -1,0 +1,15 @@
+{
+  "name": "vue-webpack-starter",
+  "version": "1.0.0",
+  "description": "Starter template for wasm with vue2+webpack",
+  "author": "Kishan Nirghin",
+  "license": "ISC",
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "gridsome": "^0.7.0"
+  }
+}

@@ -30,6 +30,8 @@ impl Person {
         self.last_name = last.to_string();
     }
 
+    // this method takes over the ownership of the Person, therefore it's
+    // previous reference will be invalidated
     fn to_tuple(self) -> (String, String) {
         (self.first_name, self.last_name)
     }
